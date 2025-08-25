@@ -4,7 +4,7 @@ import base64
 from io import BytesIO
 from PIL import Image
 
-API_ENDPOINT = "http://localhost:3000/api/face"  # Next.js API 서버 주소
+API_ENDPOINT = "http://localhost:3001/api/face"
 TARGET_URL = "https://example.com"  # 65세 미만 이동할 웹 URL
 
 st.title("AI 얼굴 나이 인식 키오스크")
